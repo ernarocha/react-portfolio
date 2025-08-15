@@ -10,7 +10,7 @@ function About() {
               <div className="glassDiv">
                 <div className="liquidGlassOverlay"></div>
               <img
-                src="/images/ernaa"
+                src="/images/ernaa.png"
                 alt="Your Portrait"
                 className="img-fluid hero-photo"
                 />
