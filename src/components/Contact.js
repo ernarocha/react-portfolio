@@ -34,7 +34,7 @@ function Contact() {
           <form
             id="contactForm"
             className="mx-auto"
-            style={{ maxWidth: '600px' }} // style is now an object
+            style={{ maxWidth: '600px' }} 
             onSubmit={handleSubmit} 
           >
             <div className="mb-3">
@@ -62,8 +62,8 @@ function Contact() {
                 className="form-control"
                 id="email"
                 name="email"
-                value={formData.email} //  Bind value
-                onChange={handleChange} //  Handle changes
+                value={formData.email} 
+                onChange={handleChange} 
                 placeholder="email@example.com"
                 required
               />
@@ -80,8 +80,8 @@ function Contact() {
                 rows="4"
                 placeholder="Type your message here..."
                 required
-                value={formData.message} // Bind value
-                onChange={handleChange} // Handle changes
+                value={formData.message} 
+                onChange={handleChange}
               ></textarea>
             </div>
 

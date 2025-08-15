@@ -1,5 +1,5 @@
 import React from 'react';
-import Erna from '../assets/images/ernaa.png';
+
 function About() {
   return (
     <>
@@ -10,7 +10,7 @@ function About() {
               <div className="glassDiv">
                 <div className="liquidGlassOverlay"></div>
               <img
-                src={Erna}
+                src="/images/ernaa.png"
                 alt="Your Portrait"
                 className="img-fluid hero-photo"
                 />

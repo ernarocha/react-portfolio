@@ -1,7 +1,4 @@
 import React, { useState, useCallback, useRef } from 'react';
-import AlloCoin from '../assets/images/allocoin-project.jpg';
-import CafeCo from '../assets/images/coffe-project.jpg';
-import Flower from '../assets/images/flower-project.jpg';
 
 function Projects() {
   const [bgColor, setBgColor] = useState("#f8f9fa");
@@ -37,7 +34,7 @@ const randomizeContainerColor = (e) => {
         <div className="row g-4">
           <div className="col-md-4">
             <div className="card h-100">
-              <img src={AlloCoin} className="card-img-top" alt="Project 1" />
+              <img src="/images/allocoin-project.png" className="card-img-top" alt="Project 1" />
               <div className="card-body">
                 <h5
                   className="card-title project-title"
@@ -63,7 +60,7 @@ const randomizeContainerColor = (e) => {
 
           <div className="col-md-4">
             <div className="card h-100">
-              <img src={CafeCo} className="card-img-top" alt="Project 2" />
+              <img src="/images/coffe-project.png" className="card-img-top" alt="Project 2" />
               <div className="card-body">
                 <h5
                   className="card-title project-title"
@@ -89,7 +86,7 @@ const randomizeContainerColor = (e) => {
 
           <div className="col-md-4">
             <div className="card h-100">
-              <img src={Flower} className="card-img-top" alt="Project 3" />
+              <img src="/images/flower-project.png" className="card-img-top" alt="Project 3" />
               <div className="card-body">
                 <h5
                   className="card-title project-title"
